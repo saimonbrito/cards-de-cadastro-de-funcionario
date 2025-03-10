@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212121;
+    margin-left: 1rem;
+}
+.containerListaSuspensa{
+    margin: 1rem;
+    display: block;
+}
+.containerListaSuspensa {
+    width: 97%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 0.625rem;
+    margin-top: 0.625rem;
+    color: #212121;
+}
