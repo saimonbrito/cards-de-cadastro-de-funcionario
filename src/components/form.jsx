@@ -7,9 +7,9 @@ import { useState } from 'react'
 
 
 
-export function Form({aoColaboradorCadastrado})  {
+export function Form({aoColaboradorCadastrado ,times})  {
 
-    const times= ['Frontend', 'Data Science', 'Devops', 'UX e Desing','mobile','Inovação e gestão']
+
 
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')  
@@ -25,6 +25,10 @@ export function Form({aoColaboradorCadastrado})  {
             imagem: imagem,
             time: time
         })
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
         
     }
 
@@ -51,7 +55,7 @@ export function Form({aoColaboradorCadastrado})  {
             />
             <Inputs
 
-            obrigatorio={true} 
+             
             nome={'Imagem'} 
             placeholder={'Informe o endereço da imagem'}
             valor={imagem}
