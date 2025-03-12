@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 30rem;
+    position: relative;
+    right: -600px;
+    margin: 2rem;   
+}
+.container h1 {
+    color: #6278F7;
+    font-weight: bolder;
+    font-size: 2rem;
+    border-bottom:  4px solid #6278F7;
+}
+
+.container img{
+    width: 70px;
+    height: 100%;
+}

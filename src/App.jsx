@@ -2,6 +2,7 @@
 import {Banner} from './components/Banner'
 import {Form} from './components/form'
 import {Footer} from './components/footer'
+
 import { useState } from 'react'
 import { Time } from './components/Time'
 import './App.css'
@@ -50,15 +51,17 @@ function App() {
 
 
   const aoNovoColaboradorAdcionado = (colaborador) => {
-    console.log('Colaborador ')
+   
     setColaboradores([...colaboradores, colaborador])
   }
   
 
   return (
     <div className='container'>
-         <Banner /> 
+     
          <Form  times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdcionado(colaborador)}/>
+ 
+        
           {times.map(time =>
              <Time 
              nome={time.nome} 

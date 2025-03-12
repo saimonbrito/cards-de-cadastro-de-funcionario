@@ -17,6 +17,6 @@ export function Inputs ({
         <div className={styles.containerInput}>
               <label>{nome}</label>
               <input value={valor} type="text" name="name" onChange={aoDigitar} required={obrigatorio}  placeholder={placeholder} />
-              </div>
+        </div>
     )
 }

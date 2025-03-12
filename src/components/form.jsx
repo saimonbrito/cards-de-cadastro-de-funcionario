@@ -64,7 +64,7 @@ export function Form({aoColaboradorCadastrado ,times})  {
 
             <ListaSuspensa  
             items={times} 
-            label={'Lista suspensa'}    
+            label={'Time'}    
             valor={time}
             aoAlterado={valor => setTime(valor)}
             />

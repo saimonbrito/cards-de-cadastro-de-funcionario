@@ -10,8 +10,8 @@ export function Footer() {
             <img src="./tw.png"  />
             <img src="./ig.png"  />
         </span>
-        <img src="./logo.png" />
-        <p>Desenvolvido por Alura.</p>
+        
+        <p>Desenvolvido por Mauricio Fernandes Dev.</p>
       </div>
     </footer>
   );
