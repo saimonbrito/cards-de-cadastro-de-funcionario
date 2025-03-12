@@ -72,6 +72,7 @@ function App() {
                  {colaboradores.filter(colaborador => colaborador.time === time.nome)}
             />
           )}
+          
           <Footer/>
     
     </div>

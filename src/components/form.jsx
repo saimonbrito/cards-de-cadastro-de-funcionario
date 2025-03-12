@@ -33,7 +33,7 @@ export function Form({aoColaboradorCadastrado ,times})  {
     }
 
     return (
-        <div>
+        
             <form onSubmit={onSalvar} className={styles.containerForm}>
 
             <h4>Preencha os dados para criar o card do colaborador.</h4>
@@ -74,6 +74,6 @@ export function Form({aoColaboradorCadastrado ,times})  {
             </div> 
             </form>
 
-        </div>
+        
     )
 }

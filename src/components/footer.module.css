@@ -22,7 +22,27 @@ footer {
     gap: 4rem;
 }
 .container p {
+    
     font-size: 1.5rem;
     font-family: monospace;
     color: #fff;
 }
+
+@media screen and (max-width: 1040px) {
+    .container span {
+        display: flex;
+        gap: 4rem;
+    }
+
+    
+   
+  }
+  @media screen and (max-width: 710px) {
+    .container span {
+        display: none;
+        
+    }
+
+    
+   
+  }

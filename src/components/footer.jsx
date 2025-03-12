@@ -11,7 +11,7 @@ export function Footer() {
             <img src="./ig.png"  />
         </span>
         
-        <p>Desenvolvido por Mauricio Fernandes Dev.</p>
+        <p><p>Desenvolvido</p> Dev. <p>Mauricio Fernandes</p></p>
       </div>
     </footer>
   );

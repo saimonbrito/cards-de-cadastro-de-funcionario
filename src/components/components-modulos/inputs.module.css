@@ -23,3 +23,9 @@
     margin-top: 0.625rem;
     color: #212121;
 }
+@media screen and (max-width: 1040px) {
+    .containerInput{
+        margin-top: 0;
+    }
+   
+  }
