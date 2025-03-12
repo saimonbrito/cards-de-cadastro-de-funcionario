@@ -11,8 +11,10 @@ export function Time({nome, corPrimaria, corSecundaria, colaboradores}) {
 
     return (
         (colaboradores.length > 0 ) ?
-            <section className={styles.container} style={corSecundaria2}>
+            <section className={styles.container} style={{backgroundColor: 'transparent'}}>
+
             <h3 style={corPrimaria2}>{nome}</h3>
+            
            <div className={styles.containerCards}>
                 {colaboradores.map(colaborador =>
                 <Cards key={colaborador.nome} nome={colaborador.nome} corDeFundo={corPrimaria} cargo={colaborador.cargo} imagem={colaborador.imagem}/>
